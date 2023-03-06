@@ -1,0 +1,38 @@
+<html>
+    <title>
+        NUKIM BBQ
+    </title>
+    <head>
+        <meta charset="UTF-8">
+        <h1 align="center">&lt;資管系系烤報名表&gt;<h1>
+            <hr> 
+    </head>
+    <body background="bbq.jpg">
+        <img src="bbq2.jpg"width="400"height="300">
+    <img src="bbq3.jpg"width="400"height="300">
+    <table border="1"width="350"length="100"bgcolor="red">
+    <tr>
+        <th><h2>日期</h2></th>
+        <th><h2>時間</h2></th>
+        <th><h2>地點</h2></th>
+    </tr>
+    <tr>
+        <td><h2>5269/08/07</h2></td>
+        <td><h2>06:09</h2></td>
+        <td><h2>高大警衛室</h2></td>
+    </tr>
+    </table>
+    <form action="response.php" method="POST">
+        請輸入你的姓名：<input type="text" name="name" size="10"><br>
+        請輸入你的學號：<input type="text" name="studentid" size="15"><br>
+    
+        是否參加系烤：
+        <input type="radio" name="volunteer" value="yes">yes
+        <input type="radio" name="volunteer" value="no">no<hr>
+    
+            <input type="submit" name="send" value="提交">
+            <input type="reset" name="clear" value="重設">
+    </form>
+
+    </body>
+</html>
